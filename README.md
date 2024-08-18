@@ -47,16 +47,38 @@ classification report
 
 
 **(2) Results**
-
-
-Machine Learning Model 1:
   
 
-The classification report provides input on how well the model is performing for each class of loan status. The classification report for this exercise is below and is posted in the **Report** folder-
+The confusion matrix elucidates the performance of the model for which true values are known:
+
+- True Positive (TP)
+
+- True Negative (TN)
+
+- False Positive (FP)
+
+- False Negative (FN) 
+
+
+The classification report provides input on how well the model is performing for each class of loan status. The classification report for this exercise is below and is also posted in the **Report** folder-
+
 
 ![Classification Report](Report/classification_report.png)
 
 
+The two classifications are related to loans, namely Healthy and High Risk.
+
+
+- **Precision** metrics indicates the percentage of positive predictions (TP) relative to total positive predictions (TP + FP)
+
+
+- **Recall** metrics indicates the precentatge of correct positive predictions (TP) relative to the total actual positives (TP + FN)
+
+
+- **f1 Score** metrics are compared to 1.0 to provide insight on how well the model does of predicting
+
+
+- **Support** metrics denote the number of actual occurrences of a class in the dataset
 
 **(3) Summary**
 
@@ -68,5 +90,5 @@ Summarize the results of the machine learning models, and include a recommendati
 
 **(4) Citations**
 
-Xpert Learning Assistant - questions about data preparation
+Xpert Learning Assistant - questions about data preparation; confusion matrices; and classification reports
 
