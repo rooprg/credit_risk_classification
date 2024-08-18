@@ -21,18 +21,27 @@ Predicting whether a loan is high risk or not (whether the loan will be repaid) 
 **Order of operations:**
 
 Reading in .csv file 
+
 Creating label set (y)
+
 Creating the features (X)
+
 Splitting the dataset into training and testing datasets for y and X
+
 Fitting a logistic regression model by using the training data (X_train and y_train)
+
 Saving the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model
+
 Determine model performance
 
 **Methods used:**
 
 sklearn train_test_split
+
 sklearn logistic regression and its .fit and .predict functions
+
 confusion matrix
+
 classification report
 
 
