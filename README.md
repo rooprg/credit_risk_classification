@@ -1,23 +1,36 @@
-Credit Risk Classification
+**CREDIT RISK CLASSIFICATION**
 
-Overview of the Analysis
+**(1) Overview of the Analysis-**
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+**Purpose of the analysis:**
+Understanding borrower creditworthiness is important for short term and long term business viability of lending institutions. To that end, using available historical lending information to assist with identifying the creditworthiness of borrowers would be hugely advantageous. This exercise and analysis is intended to train and evaluate a model based on loan risk.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
-Results
+**Data and predictions:**
+The dataset used has information on 77,536 unique loans, including details of the size of the loan; the interest rate; the borrower's income; a ration of loan size to income; total debt; loan status; etc.
+
+Predicting whether a loan is high risk or not (whether the loan will be repaid) will be important to the lender.
+
+
+**Variables and predictions:**
+
+**Order of operations:**
+
+**Methods used:**
+
+
+
+
+
+
+**(2) Results**
 
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
     * Description of Model 1 Accuracy, Precision, and Recall scores.
 
-Summary
+**(3) Summary**
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
