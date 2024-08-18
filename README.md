@@ -56,7 +56,7 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
     * Description of Model 1 Accuracy, Precision, and Recall scores.
 
 
-[!Classification Report](Report/classification_report.png)
+![Classification Report](Report/classification_report.png)
 
 
 
