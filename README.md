@@ -55,6 +55,11 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
 * Machine Learning Model 1:
     * Description of Model 1 Accuracy, Precision, and Recall scores.
 
+
+[!Classification Report](Report/classification_report.png)
+
+
+
 **(3) Summary**
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
