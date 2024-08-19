@@ -50,13 +50,13 @@ classification report
 
 ![Confusion Matrix](Report/confusion_matrix.png)
 
-- True Positive (TP)
+- True Positive (TP): 558
 
-- True Negative (TN)
+- True Negative (TN): 18679
 
-- False Positive (FP)
+- False Positive (FP): 80
 
-- False Negative (FN) 
+- False Negative (FN): 67 
 
 
 (b) The classification report provides input on how well the model is performing for each class of loan status. The classification report for this exercise is below and is also posted in the **Report** folder-
