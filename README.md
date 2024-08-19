@@ -14,11 +14,6 @@ The dataset used has information on 77,536 unique loans, including details of th
 Predicting whether a loan is high risk or not (whether the loan will be repaid) will be important to the lender.
 
 
-**-Variables and predictions:**
-
-
-
-
 **-Order of operations:**
 
 Reading in .csv file 
@@ -34,6 +29,7 @@ Fitting a logistic regression model by using the training data (X_train and y_tr
 Saving the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model
 
 Determine model performance
+
 
 **-Methods used:**
 
@@ -66,26 +62,55 @@ The classification report provides input on how well the model is performing for
 ![Classification Report](Report/classification_report.png)
 
 
-The two classifications are related to loans, namely Healthy and High Risk.
+The two classifications are related to loans, namely Healthy and High Risk. Here are scores from the analysis
 
 
 - **Precision** metrics indicates the percentage of positive predictions (TP) relative to total positive predictions (TP + FP)
 
 
+(a) Healthy: **1.0**
+
+
+(b) High Risk: **0.87**
+
+
 - **Recall** metrics indicates the precentatge of correct positive predictions (TP) relative to the total actual positives (TP + FN)
+
+
+(a) Healthy: **1.0**
+
+
+(b) High Risk: **0.89**
 
 
 - **f1 Score** metrics are compared to 1.0 to provide insight on how well the model does of predicting
 
 
+(a) Healthy: **1.0**
+
+
+(b) High Risk: **0.88**
+
+
+- **Accuracy** metric describes the number of correct instances out of the total number of instances, which is 99%
+
+
 - **Support** metrics denote the number of actual occurrences of a class in the dataset
+
+
+(a) Healthy: **18759**
+
+
+(b) High Risk: **625**
+
+
 
 **(3) Summary**
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+In trying to develop a methodology to identify the creditworthiness of borrowers, the logistic regression model as designed in this exercise is good as a first pass. Its **Accuracy** was high overall and **Precision**; **Recall**; and **f1 score** were decent at greater than 87% for High Risk loans. Lenders in general may want to have slightly higher **Accuracy**; **Precision**; and **Recall** metrics since their business is predicated upon return of the loan's principal, plus the influx of the resultant interest. Even small numbers of partial loan repayments or full loan defaults can impact the ability to continue lending.
 
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
+It might be advantageous to improve the modeling. If additional information is available on the loans and their recipients (e.g., successful previous repayment; number of open loans; etc.), these could help with more robust modeling and more definite scores. It might be worth continuing to improve the modeling while the current model is being used (i.e., process improvement) or slightly delay implementation to provide the best modeling possible.
 
 
 **(4) Citations**
