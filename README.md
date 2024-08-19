@@ -45,7 +45,10 @@ classification report
 **(2) Results**
   
 
-(a) The confusion matrix elucidates the performance of the model for which true values are known:
+(a) The confusion matrix elucidates the performance of the model for which true values are known. The confusion matrix for this exercise is below and is also posted in the **Report** folder-
+
+
+![Confusion Matrix](Report/confusion_matrix.png)
 
 - True Positive (TP)
 
