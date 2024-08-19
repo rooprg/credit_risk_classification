@@ -45,7 +45,7 @@ classification report
 **(2) Results**
   
 
-The confusion matrix elucidates the performance of the model for which true values are known:
+(a) The confusion matrix elucidates the performance of the model for which true values are known:
 
 - True Positive (TP)
 
@@ -56,7 +56,7 @@ The confusion matrix elucidates the performance of the model for which true valu
 - False Negative (FN) 
 
 
-The classification report provides input on how well the model is performing for each class of loan status. The classification report for this exercise is below and is also posted in the **Report** folder-
+(b) The classification report provides input on how well the model is performing for each class of loan status. The classification report for this exercise is below and is also posted in the **Report** folder-
 
 
 ![Classification Report](Report/classification_report.png)
@@ -65,44 +65,43 @@ The classification report provides input on how well the model is performing for
 The two classifications are related to loans, namely Healthy and High Risk. Here are scores from the analysis
 
 
-- **Precision** metrics indicates the percentage of positive predictions (TP) relative to total positive predictions (TP + FP)
+(i) **Precision** metrics indicates the percentage of positive predictions (TP) relative to total positive predictions (TP + FP)
 
 
-(a) Healthy: **1.0**
+- Healthy: **1.0**
 
 
-(b) High Risk: **0.87**
+- High Risk: **0.87**
 
 
-- **Recall** metrics indicates the precentatge of correct positive predictions (TP) relative to the total actual positives (TP + FN)
+(ii) **Recall** metrics indicates the precentatge of correct positive predictions (TP) relative to the total actual positives (TP + FN)
 
 
-(a) Healthy: **1.0**
+- Healthy: **1.0**
 
 
-(b) High Risk: **0.89**
+- High Risk: **0.89**
 
 
-- **f1 Score** metrics are compared to 1.0 to provide insight on how well the model does of predicting
+(iii) **f1 Score** metrics are compared to 1.0 to provide insight on how well the model does of predicting
 
 
-(a) Healthy: **1.0**
+- Healthy: **1.0**
 
 
-(b) High Risk: **0.88**
+- High Risk: **0.88**
 
 
-- **Accuracy** metric describes the number of correct instances out of the total number of instances, which is 99%
+(iv) **Accuracy** metric describes the number of correct instances out of the total number of instances, which is 99%
 
 
-- **Support** metrics denote the number of actual occurrences of a class in the dataset
+(v) **Support** metrics denote the number of actual occurrences of a class in the dataset
 
 
-(a) Healthy: **18759**
+- Healthy: **18759**
 
 
-(b) High Risk: **625**
-
+- High Risk: **625**
 
 
 **(3) Summary**
@@ -110,7 +109,7 @@ The two classifications are related to loans, namely Healthy and High Risk. Here
 In trying to develop a methodology to identify the creditworthiness of borrowers, the logistic regression model as designed in this exercise is good as a first pass. Its **Accuracy** was high overall and **Precision**; **Recall**; and **f1 score** were decent at greater than 87% for High Risk loans. Lenders in general may want to have slightly higher **Accuracy**; **Precision**; and **Recall** metrics since their business is predicated upon return of the loan's principal, plus the influx of the resultant interest. Even small numbers of partial loan repayments or full loan defaults can impact the ability to continue lending.
 
 
-It might be advantageous to improve the modeling. If additional information is available on the loans and their recipients (e.g., successful previous repayment; number of open loans; etc.), these could help with more robust modeling and more definite scores. It might be worth continuing to improve the modeling while the current model is being used (i.e., process improvement) or slightly delay implementation to provide the best modeling possible.
+It might be advantageous to improve the modeling. If additional information is available on the loans and their recipients (e.g., successful previous repayment; number of open loans; etc.), these could help with more robust modeling and more definite scores. It might be worth continuing to improve the modeling in parallel with use of the current model (i.e., process improvement) or slightly delay model implementation to provide the best modeling possible at point in the immediate future.
 
 
 **(4) Citations**
